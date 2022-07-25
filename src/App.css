@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #d3a797;
+  position: relative;
+  width: 90vw;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.line-through {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+
+.overflow {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+header {
+  color: aliceblue;
+  padding: 3rem;
+}
+
+.form-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.loading {
+  margin-top: 20vh;
+  text-align: center;
+}
+
+.none {
+  color: aliceblue;
+}
+
+.itemContainer {
+  margin: 2rem 0;
+}
+
+.paginatedButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.paginatedButtons li {
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.active {
+  background: #9c27b0;
+  border-radius: 1rem;
+  color: #fff;
+}
+
+.size-const {
+  resize: none;
+}
+
+.register-form,
+.login-form {
+  min-width: 30%;
+  background: rgba(189, 168, 168, 0.966);
+  text-align: center;
+  margin: 3rem 0;
+  padding: 4rem 0;
+  border-radius: 1rem;
+}
+.registerFormContainer,
+.loginFormContainer {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-item {
+  margin: 1rem 0;
+}
+
+.user {
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  margin-top:1rem;
+  display:flex;
+  justify-content:space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.alert-danger {
+  color: var(--red-dark);
+  background: var(--red-light);
+}
+
+.todo-item {
+  display: flex;
+  justify-content: center;
+}
+
+
+.settingItem {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:1rem;
+  margin:1rem 0;
+}
+
+.avatar {
+  background:white;
+  min-width:15%;
+  padding:1rem;
+  display:flex;
+ align-items: center;
+ justify-content:center;
+  margin:1rem 0;
+  border-radius: 1rem;
+}
+
+.column {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.passwordInput {
+  margin:0.5rem 0;
+}
